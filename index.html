@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <title>VR клуб - Future</title>
+</head>
+<body>
+    <header class="p-3 bg-dark text-white">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                    <svg class="bi me-2" xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="currentColor" class="bi bi-badge-vr" viewBox="0 0 16 16">
+                        <path d="M14 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12zM2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2z"/>
+                        <path d="M4.508 11h1.429l1.99-5.999H6.61L5.277 9.708H5.22L3.875 5.001H2.5L4.508 11zm6.387-5.999H8.5V11h1.173V8.763h1.064L11.787 11h1.327L11.91 8.583C12.455 8.373 13 7.779 13 6.9c0-1.147-.773-1.9-2.105-1.9zm-1.222 2.87V5.933h1.05c.63 0 1.05.347 1.05.989 0 .633-.408.95-1.067.95H9.673z"/>
+                    </svg>
+                </a>
+
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="#" class="nav-link px-2 text-prime">Главная</a></li>
+                    <li><a href="#" class="nav-link px-2 text-white">Отзывы</a></li>
+                    <li><a href="#section-price" class="nav-link px-2 text-white">Цены</a></li>
+                    <li><a href="#" class="nav-link px-2 text-white">Вопросы</a></li>
+                    <li><a href="#" class="nav-link px-2 text-white">О нас</a></li>
+                </ul>
+
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                    <input type="search" class="form-control form-control-dark" placeholder="Найти..." aria-label="Search">    
+                </form>
+                
+                <button type="submit" class="btn btn-outline-light">Найти</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="section-hero">
+            <div class="container py-5">
+                <div class="row flex-lg-row-reverse align-items-center g-5">
+                    <div class="col-10 col-sm-8 col-lg-6">
+                        <img src="img/ARVRHeadsetDesign_1640x894.jpg" class="d-block mx-lg-auto img-fluid image" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                    </div>
+
+                    <div class="col-lg-6">
+                        <h1 class="display-5 fw-bold lh-1 mb-3 text-white">Почувствуй реальное будущее!</h1>
+                        
+                        <p class="lead text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                            <a href="about.html" type="button" class="btn btn-primary btn-lg px-4 me-md-2">Узнать больше</a >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section-price" id="section-price">
+            <div class="container">
+                <h2 class="text-white mb-4">Цены</h2>
+                <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                    <div class="col">
+                        <div class="card mb-4 rounded-3 shadow-sm image">
+                            <div class="card-header py-3">
+                                <h4 class="my-0 fw-normal">Для 2 человек</h4>
+                            </div>
+
+                            <div class="card-body">
+                                <h4 class="card-title pricing-card-title">1500 руб<small class="text-muted fw-light">/час</small></h4>
+
+                                <ul class="list-unstyled mt-3 mb-4">
+                                    <li>10 users included</li>
+                                    <li>2 GB of storage</li>
+                                    <li>Email support</li>
+                                    <li>Help center access</li>
+                                </ul>
+
+                                <button type="button" class="w-100 btn btn-lg btn-outline-primary">Попробовать</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card mb-4 rounded-3 shadow-sm image">
+                            <div class="card-header py-3">
+                                <h4 class="my-0 fw-normal">Для 4 человек</h4>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title pricing-card-title">2500 руб<small class="text-muted fw-light">/час</small></h4>
+
+                                <ul class="list-unstyled mt-3 mb-4">
+                                    <li>20 users included</li>
+                                    <li>10 GB of storage</li>
+                                    <li>Priority email support</li>
+                                    <li>Help center access</li>
+                                </ul>
+
+                                <button type="button" class="w-100 btn btn-lg btn-primary">Заявка</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card mb-4 rounded-3 shadow-sm border-primary image">
+                            <div class="card-header py-3 text-white bg-primary border-primary">
+                                <h4 class="my-0 fw-normal">Для 10 человек</h4>
+                            </div>
+
+                            <div class="card-body">
+                                <h4 class="card-title pricing-card-title">6000 руб<small class="text-muted fw-light">/час</small></h4>
+
+                                <ul class="list-unstyled mt-3 mb-4">
+                                    <li>30 users included</li>
+                                    <li>15 GB of storage</li>
+                                    <li>Phone and email support</li>
+                                    <li>Help center access</li>
+                                </ul>
+
+                                <button type="button" class="w-100 btn btn-lg btn-primary">Связаться с нами</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </section>
+    </main>    
+</body>
+</html>
